@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://colorverse-frontend.onrender.com/"],
+    origin: ["https://colorverse-frontend.onrender.com/", "http://localhost:5173"],
     credentials: true,
   })
 );
