@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const Header = styled.div`
   text-align: center;
-  margin: 3.2rem 1rem 1.2rem;
+  margin: 1.5rem 1rem 1.2rem;
   user-select: none;
 
   h1 {
@@ -135,8 +135,8 @@ const Bubble = styled.div`
     isLightColor($color) ? "none" : "0 1px 3px rgba(0,0,0,0.35)"};
 
   @media (max-width: 500px) {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     font-size: 0.85rem;
   }
 `;
