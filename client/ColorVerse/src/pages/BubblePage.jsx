@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import styled from "styled-components";
 import fetchGroqResponse from "../services/groq";
 import { colorMeta } from "../data/colorMeta";
