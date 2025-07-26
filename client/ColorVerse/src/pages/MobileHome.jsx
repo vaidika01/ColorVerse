@@ -63,7 +63,7 @@ const CardArea = styled.div`
   display: flex;
   justify-content: center;
   padding: 0 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   position: relative;
   z-index: 10;
 `;
