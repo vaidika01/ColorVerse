@@ -6,7 +6,7 @@ import { colorMeta } from "../data/colorMeta";
 
 const ChatWrapper = styled.div`
   max-width: 720px;
-  height: 90vh;
+  height: 88vh;
   margin: auto;
   display: flex;
   flex-direction: column;
