@@ -47,10 +47,18 @@ const InputBar = styled.form`
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (max-width: 500px) {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
 `;
 
 const ChatInput = styled.input`
   flex: 1;
+  min-width: 0;
   padding: 0.75rem 1rem;
   border-radius: 20px;
   border: none;
@@ -74,6 +82,8 @@ const SendButton = styled.button`
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 
   &:hover {
     filter: brightness(1.1);
