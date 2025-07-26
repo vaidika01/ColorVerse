@@ -62,6 +62,24 @@ const PageWrapper = styled.div`
   }
 `;
 
+const BackButton = styled.button`
+  position: absolute;
+  top: 1.2rem;
+  left: 1.2rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  z-index: 10;
+
+  @media (max-width: 640px) {
+    font-size: 1.2rem;
+    top: 0.2rem;
+    left: 0.5rem;
+  }
+`;
+
 const GlassCard = styled.div`
   width: 95%;
   max-width: 1100px;
@@ -186,7 +204,7 @@ const BubblePage = () => {
   const { colorName, topic } = useParams();
   const [content, setContent] = useState("");
   const [loading, setLoading] = useState(true);
-
+  const navigate = useNavigate();
   const colorInfo = colorMeta[colorName?.toLowerCase()];
   const colorHex = colorInfo?.hex || "#333";
 
@@ -220,6 +238,7 @@ const BubblePage = () => {
       $centerMood={topic === "mood"}
       style={topic === "chat" ? { overflow: "hidden" } : {}}
     >
+      <BackButton onClick={() => navigate(-1)}>&larr;</BackButton>
       {topic !== "chat" && (
         <>
           <GradientHeading color={colorHex}>
