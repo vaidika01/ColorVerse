@@ -30,17 +30,19 @@
 **Screenshots:**
 
 ### Home Page  
-![Home Page]()
-![Home Page Mobile]()
+![Home Page](https://github.com/vaidika01/ColorVerse/blob/master/Images/Screenshot%202025-07-27%20022020.png)
+
+![Home Page Mobile](https://github.com/vaidika01/ColorVerse/blob/master/Images/Screenshot%202025-07-27%20185259.png)
 
 ### Bubble Interface  
-![Bubble Interface]()
-![Bubble Interface Mobile]()
+![Bubble Interface](https://github.com/vaidika01/ColorVerse/blob/master/Images/Screenshot%202025-07-27%20022035.png)
+
+![Bubble Interface Mobile](https://github.com/vaidika01/ColorVerse/blob/master/Images/Screenshot%202025-07-27%20184943.png)
 
 ### Chat Display  
-![Chat]()
+![Chat](https://github.com/vaidika01/ColorVerse/blob/master/Images/Screenshot%202025-07-27%20022626.png)
 
 ### AI Response – Movie Example  
-![AI Response]()
+![AI Response](https://github.com/vaidika01/ColorVerse/blob/master/Images/Screenshot%202025-07-27%20021927.png)
 
 
